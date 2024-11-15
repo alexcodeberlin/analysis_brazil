@@ -24,7 +24,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 ```
-2. Read the CSV File
+2. Read the CSV File - copy csv file into root folder 
 ```
 python
 Code kopieren
