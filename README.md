@@ -1,7 +1,7 @@
 # Brazil Demographics Data Mapping and Visualization
 
-This project reads a dataset containing demographic data on Brazilian individuals. It prepares the data for analysis and visualization. 
-
+This project reads a dataset containing demographic data on Brazilian individuals. It prepares the data for analysis and visualization.<br> 
+The following dataset is used https://www.kaggle.com/datasets/patrickgomes/determinants-of-poverty-in-brazil. For any further details please check out.
 ## Prerequisites
 
 Ensure the following Python libraries are installed:
