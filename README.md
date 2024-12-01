@@ -31,55 +31,72 @@ Code kopieren
 df = pd.read_csv('brazil.csv')
 ```
 
-About Dataset
-This dataset contains data from 2020 on more than 20,000 Brazilian individuals and their characteristic
 
-Meaning of dataset variables:
-woman:
-1 - female
-0 - male
 
-age: person's age
-education:
-1 - No education and less than 1 year of study
-2 - Incomplete elementary or equivalent
-3 - Complete fundamental or equivalent
-4 - Incomplete audio or equivalent
-5 - Complete audio or equivalent
-6 - Incomplete higher or equivalent
-7 - Superior complete
+## About Dataset
+This dataset contains data from 2020 on more than 20,000 Brazilian individuals and their characteristics.
 
-work:
-1 - Agriculture, livestock, forestry, fisheries and aquaculture
-2 - General industry
-3 - Construction
-4 - Trade, repair of motor vehicles and motorcycles
-5 - Transport, storage and mail
-6 - Accommodation and food
-7 - Information, communication and financial, real estate, professional and administrative
-8 - Public administration, defense and social security
-9 - Education, human health and social services
-10 - Other Services
-11 - Home Services
-12 - Ill-defined activities
+Categorical Data: Gender(male female)
+Ordinal Data Education levels (No education, Primary, Secondary, Higher)
+Continuous Data: Age
 
-metropolitan_area
-1 - lives in metropolitan region
-0 - does not live in a metropolitan region
+### Meaning of Dataset Variables:
 
-not_white
-1 - not white (black, brown, yellow and indigenous)
-0 - white
+- **woman**:  
+  - `1` - Female  
+  - `0` - Male  
 
-urban
-1 -lives in urban areas
-0 - I live in the countryside
+- **age**:  
+  Person's age  
 
-work permit
-0 - does not have a work permit
-1 - has a work permit
-2 - other situations, employer, civil servant
+- **education**:  
+  - `1` - No education and less than 1 year of study  
+  - `2` - Incomplete elementary or equivalent  
+  - `3` - Complete fundamental or equivalent  
+  - `4` - Incomplete secondary or equivalent  
+  - `5` - Complete secondary or equivalent  
+  - `6` - Incomplete higher or equivalent  
+  - `7` - Superior complete  
 
-poverty: individuals who received less than BRL 457 in 2020
-1 - was poor in 2020 interview
-0 - not poor in 2020 interview
+- **work**:  
+  - `1` - Agriculture, livestock, forestry, fisheries, and aquaculture  
+  - `2` - General industry  
+  - `3` - Construction  
+  - `4` - Trade, repair of motor vehicles and motorcycles  
+  - `5` - Transport, storage, and mail  
+  - `6` - Accommodation and food  
+  - `7` - Information, communication, financial, real estate, professional, and administrative services  
+  - `8` - Public administration, defense, and social security  
+  - `9` - Education, human health, and social services  
+  - `10` - Other services  
+  - `11` - Home services  
+  - `12` - Ill-defined activities  
+
+- **metropolitan_area**:  
+  - `1` - Lives in a metropolitan region  
+  - `0` - Does not live in a metropolitan region  
+
+- **non_white**:  
+  - `1` - Not white (includes black, brown, yellow, and indigenous)  
+  - `0` - White  
+
+- **urban**:  
+  - `1` - Lives in urban areas  
+  - `0` - Lives in rural areas  
+
+- **work_permit**:  
+  - `0` - Does not have a work permit  
+  - `1` - Has a work permit  
+  - `2` - Other situations (e.g., employer, civil servant)  
+
+- **poverty**:  
+  Individuals who received less than BRL 457 in 2020.  
+  - `1` - Was poor in the 2020 interview  
+  - `0` - Was not poor in the 2020 interview  
+
+
+
+
+
+
+
