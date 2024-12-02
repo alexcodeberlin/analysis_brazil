@@ -1,6 +1,6 @@
 # Brazil Demographics Data Mapping and Visualization
 
-This project reads a dataset containing demographic data on Brazilian individuals. It prepares the data for analysis and visualization.<br> 
+This project reads a dataset containing demographic data on Brazilian individuals. It prepares the data for analysis and visualization. The motivation behind this project is to analyze the factors that influence education levels across different regions. It focuses between rural and urban areas. It aims to identify which job sectors are more attractive for older or younger individuals. <br> 
 The following dataset is used https://www.kaggle.com/datasets/patrickgomes/determinants-of-poverty-in-brazil. For any further details please check out.
 ## Prerequisites
 
